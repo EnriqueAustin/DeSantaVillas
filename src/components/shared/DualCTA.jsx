@@ -25,7 +25,7 @@ export default function DualCTA({ variant = "default", centered = false }) {
                     size="lg"
                     variant="outline"
                     className={`rounded-full px-8 font-medium gap-2 ${isLight
-                            ? "border-white/40 text-white hover:bg-white/10"
+                            ? "border-white/40 text-white bg-transparent backdrop-blur-sm hover:bg-white/10"
                             : "border-ocean/30 text-ocean hover:bg-ocean/5"
                         }`}
                 >
