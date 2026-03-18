@@ -4,11 +4,11 @@ import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BOOKING_URL } from "@/lib/siteData";
 
-export default function DualCTA({ variant = "default" }) {
+export default function DualCTA({ variant = "default", centered = false }) {
     const isLight = variant === "light";
 
     return (
-        <div className="flex flex-col sm:flex-row items-center gap-4">
+        <div className={`flex flex-col sm:flex-row items-center gap-4 ${centered ? "sm:justify-center" : ""}`}>
             <Link to="/Booking">
                 <Button
                     size="lg"

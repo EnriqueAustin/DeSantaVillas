@@ -41,7 +41,7 @@ export default function HeroSection() {
                         <span className="text-white/70 text-sm">West Coast, South Africa</span>
                     </div>
 
-                    <DualCTA variant="light" />
+                    <DualCTA variant="light" centered={true} />
                 </motion.div>
             </div>
 

@@ -28,7 +28,7 @@ export default function FinalCTA() {
                     Book your stay at De Santa Villas and experience the magic of St Helena Bay's
                     breathtaking sea views and warm hospitality.
                 </p>
-                <DualCTA variant="light" />
+                <DualCTA variant="light" centered={true} />
             </motion.div>
         </section>
     );

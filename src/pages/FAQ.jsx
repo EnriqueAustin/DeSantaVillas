@@ -52,7 +52,7 @@ export default function FAQ() {
                         <p className="text-muted-foreground mb-8">
                             Don't hesitate to reach out — we're always happy to help.
                         </p>
-                        <DualCTA />
+                        <DualCTA centered={true} />
                     </motion.div>
                 </div>
             </section>
