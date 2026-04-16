@@ -7,8 +7,8 @@ export default function FinalCTA() {
         <section className="relative py-24 lg:py-32 overflow-hidden">
             <div className="absolute inset-0">
                 <img
-                    src="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/e7e2c878a_generated_949a4414.png"
-                    alt="Sunset over St Helena Bay"
+                    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460510.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o="
+                    alt="Beautiful coastline view from De Santa Villas at sunset"
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-ocean-dark/90 to-ocean/80" />

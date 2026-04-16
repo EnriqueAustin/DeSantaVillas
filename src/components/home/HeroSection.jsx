@@ -8,8 +8,8 @@ export default function HeroSection() {
         <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0">
                 <img
-                    src="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/f04750314_generated_80dc1320.png"
-                    alt="Breathtaking aerial view of St Helena Bay coastline"
+                    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/535653662.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o="
+                    alt="Breathtaking panoramic view of St Helena Bay from De Santa Villas"
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />

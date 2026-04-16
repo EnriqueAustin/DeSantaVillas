@@ -49,9 +49,9 @@ export default function LocationTeaser() {
                     >
                         <div className="rounded-2xl overflow-hidden shadow-xl">
                             <img
-                                src="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/a6a76acc9_generated_2c774b30.png"
-                                alt="St Helena Bay coastline and harbor"
-                                className="w-full h-80 object-cover"
+                                src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/535653662.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o="
+                                alt="Authentic coastal views of St Helena Bay"
+                                className="w-full h-full object-cover"
                             />
                         </div>
                         <div className="absolute -bottom-4 -left-4 bg-ocean text-white rounded-xl p-5 shadow-lg">
