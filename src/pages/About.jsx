@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Heart, Waves, Sun, Star } from "lucide-react";
 import PageHero from "../components/shared/PageHero";
 import FinalCTA from "../components/home/FinalCTA";
+import { PAGE_HERO_IMAGES, SITE_IMAGES } from "@/lib/siteData";
 
 const values = [
     {
@@ -28,7 +29,7 @@ export default function About() {
             <PageHero
                 title="About Us"
                 subtitle="The story behind De Santa Villas"
-                image="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/3f42a6993_generated_e2ec6f55.png"
+                image={PAGE_HERO_IMAGES.about}
             />
 
             <section className="py-20 lg:py-28">
@@ -91,7 +92,7 @@ export default function About() {
                         >
                             <div className="rounded-2xl overflow-hidden">
                                 <img
-                                    src="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/ba1ee3c54_generated_c34a0afb.png"
+                                    src={SITE_IMAGES.aboutFeature}
                                     alt="De Santa Villas outdoor area and garden"
                                     className="w-full h-[500px] object-cover"
                                 />

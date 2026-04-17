@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import DualCTA from "../shared/DualCTA";
+import { SITE_IMAGES } from "@/lib/siteData";
 
 export default function FinalCTA() {
     return (
         <section className="relative py-24 lg:py-32 overflow-hidden">
             <div className="absolute inset-0">
                 <img
-                    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460510.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o="
+                    src={SITE_IMAGES.finalCta}
                     alt="Beautiful coastline view from De Santa Villas at sunset"
                     className="w-full h-full object-cover"
                 />

@@ -2,13 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Star, MapPin } from "lucide-react";
 import DualCTA from "../shared/DualCTA";
+import { SITE_IMAGES } from "@/lib/siteData";
 
 export default function HeroSection() {
     return (
         <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0">
                 <img
-                    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/535653662.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o="
+                    src={SITE_IMAGES.homeHero}
                     alt="Breathtaking panoramic view of St Helena Bay from De Santa Villas"
                     className="w-full h-full object-cover"
                 />

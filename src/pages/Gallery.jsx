@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageHero from "../components/shared/PageHero";
-import { GALLERY_IMAGES } from "@/lib/siteData";
+import { GALLERY_IMAGES, PAGE_HERO_IMAGES } from "@/lib/siteData";
 
 const CATEGORIES = ["all", "rooms", "views", "exterior", "surroundings"];
 
@@ -33,7 +33,7 @@ export default function Gallery() {
             <PageHero
                 title="Gallery"
                 subtitle="Explore the beauty of De Santa Villas and St Helena Bay"
-                image="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/3f42a6993_generated_e2ec6f55.png"
+                image={PAGE_HERO_IMAGES.gallery}
             />
 
             <section className="py-16 lg:py-24">

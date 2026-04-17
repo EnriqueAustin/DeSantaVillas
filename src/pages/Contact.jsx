@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import PageHero from "../components/shared/PageHero";
 import DualCTA from "../components/shared/DualCTA";
-import { CONTACT_INFO } from "@/lib/siteData";
+import { CONTACT_INFO, PAGE_HERO_IMAGES } from "@/lib/siteData";
 
 export default function Contact() {
     const [submitted, setSubmitted] = useState(false);
@@ -23,7 +23,7 @@ export default function Contact() {
             <PageHero
                 title="Contact Us"
                 subtitle="We'd love to hear from you"
-                image="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/e7e2c878a_generated_949a4414.png"
+                image={PAGE_HERO_IMAGES.contact}
             />
 
             <section className="py-20 lg:py-28">

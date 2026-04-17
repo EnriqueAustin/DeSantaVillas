@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import PageHero from "../components/shared/PageHero";
 import DualCTA from "../components/shared/DualCTA";
-import { FAQ_DATA } from "@/lib/siteData";
+import { FAQ_DATA, PAGE_HERO_IMAGES } from "@/lib/siteData";
 
 export default function FAQ() {
     return (
@@ -11,7 +11,7 @@ export default function FAQ() {
             <PageHero
                 title="Frequently Asked Questions"
                 subtitle="Everything you need to know about your stay"
-                image="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/3f42a6993_generated_e2ec6f55.png"
+                image={PAGE_HERO_IMAGES.faq}
             />
 
             <section className="py-20 lg:py-28">

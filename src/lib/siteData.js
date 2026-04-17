@@ -6,6 +6,23 @@ export const CONTACT_INFO = {
     address: "10 Britannica Drive, St Helena Bay, 7390, South Africa",
 };
 
+export const SITE_IMAGES = {
+    homeHero: "/images/535648640.jpg",
+    finalCta: "/images/809332989.jpg",
+    locationTeaser: "/images/809330393.jpg",
+    aboutFeature: "/images/809332989.jpg",
+};
+
+export const PAGE_HERO_IMAGES = {
+    about: "/images/809332989.jpg",
+    booking: "/images/596868640.jpg",
+    contact: "/images/809330393.jpg",
+    faq: "/images/535648640.jpg",
+    gallery: "/images/535648640.jpg",
+    location: "/images/535648640.jpg",
+    rooms: "/images/596869193.jpg",
+};
+
 export const ROOMS = [
     {
         id: "ocean-suite",
@@ -14,7 +31,7 @@ export const ROOMS = [
         capacity: 2,
         bedType: "1 Large Double Bed",
         amenities: ["Sea View", "Private Balcony", "Air Conditioning", "Free WiFi", "Kitchenette", "Modern Shower", "Flat-screen TV", "Free Parking"],
-        image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596868640.jpg?k=03837dcedb3d347ef9596ec0ec3b758e5c47d716c8456e47b5ee2bd3814ad9df&o=",
+        image: "/images/596868640.jpg",
     },
     {
         id: "family-apartment",
@@ -23,7 +40,7 @@ export const ROOMS = [
         capacity: 3,
         bedType: "1 Double Bed + 1 Sofa Bed",
         amenities: ["Sea View", "Patio", "Air Conditioning", "Free WiFi", "Kitchenette", "Walk-in Shower", "TV", "Free Parking", "Sofa Bed"],
-        image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460611.jpg?k=3aa1def3d6e06ba5d2f0667c89ee995f789e048016d78f21659814590823bd14&o=",
+        image: "/images/500460611.jpg",
     },
     {
         id: "deluxe-apartment",
@@ -32,7 +49,7 @@ export const ROOMS = [
         capacity: 4,
         bedType: "1 Double Bed + 2 Futons/Sofa Beds",
         amenities: ["Bay View", "Private Entrance", "Air Conditioning", "Free WiFi", "Full Kitchenette", "Dining Area", "Walk-in Shower", "TV", "BBQ Facilities", "Free Parking"],
-        image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460622.jpg?k=d23fa686874426c6bfbef0b6ab72627484349622fbb22ec5238458fb1f69bd2c&o=",
+        image: "/images/500460622.jpg",
     },
 ];
 
@@ -70,15 +87,18 @@ export const TESTIMONIALS = [
 ];
 
 export const GALLERY_IMAGES = [
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/535653662.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o=", category: "views", alt: "Panoramic view of St Helena Bay coastline" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596868640.jpg?k=03837dcedb3d347ef9596ec0ec3b758e5c47d716c8456e47b5ee2bd3814ad9df&o=", category: "rooms", alt: "Stunning bedroom with sea view" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460611.jpg?k=3aa1def3d6e06ba5d2f0667c89ee995f789e048016d78f21659814590823bd14&o=", category: "rooms", alt: "Comfortable living and sofa area" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460622.jpg?k=d23fa686874426c6bfbef0b6ab72627484349622fbb22ec5238458fb1f69bd2c&o=", category: "rooms", alt: "Modern and well-equipped kitchenette" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596869188.jpg?k=ef36433232c516134764c4fd6c2515d086a4ebb13eb2c7d32020d63c4ccb3d1e&o=", category: "rooms", alt: "Clean bathroom with modern walk-in shower" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/809332989.jpg?k=c992c5f8e5ca2caa06696d77ac549d03615c03c417556ff3f7203141c8d93306&o=", category: "exterior", alt: "Private balcony with outdoor seating" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460515.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o=", category: "exterior", alt: "Villa entrance and building exterior" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460510.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o=", category: "views", alt: "Clear blue bay and coastline view" },
-    { src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500460526.jpg?k=0e58d172490662561c5b70d89009546add046f99ff1f3d01a3ec4a2591102bed&o=", category: "exterior", alt: "Outdoor garden area" },
+    { src: "/images/535648640.jpg", category: "views", alt: "Patio table looking out over the calm St Helena Bay coastline" },
+    { src: "/images/535654386.jpg", category: "views", alt: "Wide bay view from the property overlooking the West Coast" },
+    { src: "/images/596868640.jpg", category: "rooms", alt: "Apartment bedroom with bright sea-facing sliding doors" },
+    { src: "/images/500460611.jpg", category: "rooms", alt: "Comfortable open-plan apartment with bed and lounge area" },
+    { src: "/images/500460622.jpg", category: "rooms", alt: "Vertical room view showing the bed and kitchenette space" },
+    { src: "/images/596869188.jpg", category: "rooms", alt: "Spacious studio interior with dining area and en suite bathroom" },
+    { src: "/images/596869193.jpg", category: "rooms", alt: "Deluxe apartment interior with seating area and kitchenette access" },
+    { src: "/images/596868649.jpg", category: "rooms", alt: "Coastal apartment living area with sofa and dining nook" },
+    { src: "/images/809332989.jpg", category: "exterior", alt: "Exterior of De Santa Villas with lawn, braai area, and ocean beyond" },
+    { src: "/images/809330393.jpg", category: "exterior", alt: "Covered patio with braai and outdoor dining overlooking the bay" },
+    { src: "/images/559581836.jpg", category: "exterior", alt: "Villa nameplate mounted at the property entrance" },
+    { src: "/images/596869190.jpg", category: "surroundings", alt: "Open coastal landscape surrounding De Santa Villas" },
 ];
 
 export const FAQ_DATA = [

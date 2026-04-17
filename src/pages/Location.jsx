@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Navigation, Fish, TreePine, Waves, UtensilsCrossed, Landmark } from "lucide-react";
 import PageHero from "../components/shared/PageHero";
 import FinalCTA from "../components/home/FinalCTA";
-import { ATTRACTIONS } from "@/lib/siteData";
+import { ATTRACTIONS, PAGE_HERO_IMAGES } from "@/lib/siteData";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 const categoryIcons = {
@@ -21,7 +21,7 @@ export default function Location() {
             <PageHero
                 title="Location & Attractions"
                 subtitle="Discover the beauty of the West Coast"
-                image="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/a6a76acc9_generated_2c774b30.png"
+                image={PAGE_HERO_IMAGES.location}
             />
 
             {/* Map */}

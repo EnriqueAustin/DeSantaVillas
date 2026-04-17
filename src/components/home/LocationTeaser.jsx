@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SITE_IMAGES } from "@/lib/siteData";
 
 export default function LocationTeaser() {
     return (
@@ -49,7 +50,7 @@ export default function LocationTeaser() {
                     >
                         <div className="rounded-2xl overflow-hidden shadow-xl">
                             <img
-                                src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/535653662.jpg?k=79c2c317ac72ff744d397dd56887547da91d3a38314acbd86aabcfea921336ea&o="
+                                src={SITE_IMAGES.locationTeaser}
                                 alt="Authentic coastal views of St Helena Bay"
                                 className="w-full h-full object-cover"
                             />

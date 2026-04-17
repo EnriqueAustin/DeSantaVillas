@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import PageHero from "../components/shared/PageHero";
-import { ROOMS, BOOKING_URL } from "@/lib/siteData";
+import { ROOMS, BOOKING_URL, PAGE_HERO_IMAGES } from "@/lib/siteData";
 
 const benefits = [
     { icon: Shield, title: "Personalized Service", text: "We tailor your stay to your preferences." },
@@ -40,7 +40,7 @@ export default function Booking() {
             <PageHero
                 title="Reserve Your Stay"
                 subtitle="Book directly with us for a personalized experience"
-                image="https://media.base44.com/images/public/69ba7d9838ba20504f0e1b68/f04750314_generated_80dc1320.png"
+                image={PAGE_HERO_IMAGES.booking}
             />
 
             <section className="py-20 lg:py-28">
